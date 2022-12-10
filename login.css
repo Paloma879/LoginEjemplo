@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/009/201/314/non_2x/electric-blue-flowing-waves-background-free-vector.jpg);
+}
+
+form {
+     display: flex;
+     flex-direction: column;
+     background-color: #13c457;
+     text-align: center;
+     padding: 80px;
+     border-radius: 27%;
+     box-shadow: 0 10px 10px rgb(rgb(230, 231, 233));
+}
+
+form .titulo {
+    color:black;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+form label {
+    margin-bottom: 35px;
+}
+form label .fa-solid {
+    font-size: 20px;
+    border: none;
+    color: blue;
+    border-bottom: solid #702673;
+    padding: 0 5px;
+    font-size: 19px;
+}
+
+form label input {
+    outline: none;
+    border:none;
+    color:#1d0101;
+    border-bottom: solid 1px #702673;
+    padding: 0 5px;
+    font-size: 19px;
+    border-radius: 10%;
+}
+
+form label input::placeholder {
+    color: grey;
+    
+}
+form .link {
+    color: #1d0101;
+    margin-bottom: 15px;
+} 
+form button{
+    color:#ecebec;
+    border: none;
+    padding: 10px 5px;
+    cursor: pointer;
+    background-color: rgb(37, 10, 112);
+    border-radius: 48%;
+}
